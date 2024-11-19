@@ -6,13 +6,14 @@ public class No {
     // Valor armazenado no nó
     private int dado;
 
-    // Referência para do nó para o próximo nó
+    // Referência do nó para o próximo nó
     private No refNo = null;
 
+    // inicializar o nó
     public No() {
 
     }
-    // inicializar o nó
+    // inicializar o nó com dados
     public No(int dado) {
         this.dado = dado;
     }
